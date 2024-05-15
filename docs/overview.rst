@@ -3,9 +3,8 @@ Overview
 ========
 
 UnifyFS is a user-level file system under active development
-that supports shared file I/O over distributed storage on HPC systems,
-e.g., node-local burst buffers.
-With UnifyFS, applications can write to fast, scalable, node-local burst buffers as
+that supports shared file I/O over distributed, node-local storage on HPC systems.
+With UnifyFS, applications can write to fast, scalable, node-local storage as
 easily as they do to the parallel file system.
 UnifyFS is designed to support common I/O workloads such as
 checkpoint/restart and other bulk-synchronous I/O workloads typically
